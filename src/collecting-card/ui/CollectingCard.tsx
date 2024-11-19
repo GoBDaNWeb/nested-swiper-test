@@ -8,7 +8,7 @@ import { Swiper as SwiperType } from "swiper/types";
 
 import { Badge } from "../../badge";
 import { Button } from "../../button";
-import { Fancybox } from "../../Fancybox";
+// import { Fancybox } from "../../Fancybox";
 import { LinkIcon } from "../../LinkIcon";
 import { StarIcon } from "../../StarIcon";
 import { Swiper } from "../../Swiper";
@@ -111,7 +111,7 @@ export const CollectingCard: FC<ICollectingCard> = ({
 
           <span className={s.date}>{date}</span>
         </div>
-        <Fancybox className={s.swiperWrapper}>
+        <div className={s.swiperWrapper}>
           <Swiper
             onSwiper={(swiper) => {
               setSwiper(swiper);
@@ -124,7 +124,7 @@ export const CollectingCard: FC<ICollectingCard> = ({
             }}
           >
             {imgs.map((img, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={index} className={s.slide}>
                 <img src={img} alt="" data-fancybox="collecting" />
                 {/* <Image
 									paddingBottom='71%'
@@ -137,7 +137,7 @@ export const CollectingCard: FC<ICollectingCard> = ({
             ))}
           </Swiper>
           <div ref={pagination}></div>
-        </Fancybox>
+        </div>
       </div>
       <div className={s.collectingCardBottom}>
         <a href="#" className={s.collectingCardBottomContent}>
