@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { SwiperSlide } from "swiper/react";
 
 import clsx from "clsx";
+import { Swiper } from "swiper/react";
 
 import { Navigation } from "swiper/modules";
 import { Swiper as SwiperType } from "swiper/types";
@@ -9,7 +10,7 @@ import { Swiper as SwiperType } from "swiper/types";
 import { CollectingCard } from "./collecting-card";
 
 import { Button } from "./button";
-import { Swiper } from "./Swiper";
+// import { Swiper } from "./Swiper";
 
 import s from "./donation.module.scss";
 

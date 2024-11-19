@@ -5,13 +5,14 @@ import clsx from "clsx";
 
 import { Pagination } from "swiper/modules";
 import { Swiper as SwiperType } from "swiper/types";
+import { Swiper } from "swiper/react";
 
 import { Badge } from "../../badge";
 import { Button } from "../../button";
 // import { Fancybox } from "../../Fancybox";
 import { LinkIcon } from "../../LinkIcon";
 import { StarIcon } from "../../StarIcon";
-import { Swiper } from "../../Swiper";
+// import { Swiper } from "../../Swiper";
 
 import s from "./collecting-card.module.scss";
 
