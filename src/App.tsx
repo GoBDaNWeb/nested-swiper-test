@@ -1,4 +1,3 @@
-import "./App.css";
 import "./app/styles/index.scss";
 
 import { Donation } from "./donation/Donation";
