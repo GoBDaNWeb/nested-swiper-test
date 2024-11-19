@@ -124,18 +124,15 @@ export const CollectingCard: FC<ICollectingCard> = ({
               clickable: true,
             }}
           >
-            {imgs.map((img, index) => (
-              <SwiperSlide key={index} className={s.slide}>
-                <img src={img} alt="" data-fancybox="collecting" />
-                {/* <Image
-									paddingBottom='71%'
-									src={img}
-									alt='slide'
-									className={s.image}
-									fancybox='collecting'
-								/> */}
-              </SwiperSlide>
-            ))}
+            <SwiperSlide className={s.slide}>
+              <img src={imgs[0]} alt="" data-fancybox="collecting" />
+            </SwiperSlide>
+            <SwiperSlide className={s.slide}>
+              <img src={imgs[0]} alt="" data-fancybox="collecting" />
+            </SwiperSlide>
+            <SwiperSlide className={s.slide}>
+              <img src={imgs[0]} alt="" data-fancybox="collecting" />
+            </SwiperSlide>
           </Swiper>
           <div ref={pagination}></div>
         </div>

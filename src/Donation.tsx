@@ -77,35 +77,357 @@ export const Donation = () => {
               nextEl: next.current,
             }}
           >
-            {[...Array(10)].map((_, index) => (
-              <SwiperSlide key={index}>
-                <CollectingCard
-                  title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
-                  size="m"
-                  className={s.collecting}
-                  imgs={[
-                    "/images/home/donation/slide.jpg",
-                    "/images/home/donation/slide.jpg",
-                    "/images/home/donation/slide.jpg",
-                  ]}
-                  userImg="/images/home/donation/user.jpg"
-                  userName="Четыре лапы"
-                  userDate="00.00.0000"
-                  sum="0"
-                  total="100 000"
-                  badgeColor="gold"
-                  badge={
-                    <>
-                      <img src="/images/clock-gold.svg" alt="" />
-                      <span>31 день</span>
-                      <p>до завершения</p>
-                    </>
-                  }
-                  isPopular
-                  hasLink
-                />
-              </SwiperSlide>
-            ))}
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CollectingCard
+                title="Кошачьему приюту необходимо оборудование которое позволит содержать животных в чистоте и комфорте"
+                size="m"
+                className={s.collecting}
+                imgs={[
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                  "/images/home/donation/slide.jpg",
+                ]}
+                userImg="/images/home/donation/user.jpg"
+                userName="Четыре лапы"
+                userDate="00.00.0000"
+                sum="0"
+                total="100 000"
+                badgeColor="gold"
+                badge={
+                  <>
+                    <img src="/images/clock-gold.svg" alt="" />
+                    <span>31 день</span>
+                    <p>до завершения</p>
+                  </>
+                }
+                isPopular
+                hasLink
+              />
+            </SwiperSlide>
           </Swiper>
           <div className={s.navigation}>
             <Button
